@@ -1,9 +1,4 @@
-import { User } from "../types/user";
-
-export type GetUsersFilters = {
-    limit: number;
-    page: number;
-};
+import { User } from "@/types/user";
 
 export async function getUsers(filters?: GetUsersFilters) {
     // Do something cool with the filters
